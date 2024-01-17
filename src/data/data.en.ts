@@ -63,7 +63,7 @@ const resumeData: ResumeData = {
       company: "Prosol Distribution Inc.",
       title: "Software Developer and Support Technician",
       startDate: new Date(2014, 10),
-      endDate: new Date(2018, 12),
+      endDate: new Date(2018, 11),
       location: "Montréal, Québec, Canada",
       summary: [
         "Developed and maintained custom productivity tools meant for internal use, using C# and legacy BASIC",
