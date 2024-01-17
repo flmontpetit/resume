@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default (props: PropsWithChildren<SectionProps>) => {
+const Section = (props: PropsWithChildren<SectionProps>) => {
   return (
     <View style={styles.wrapper}>
       <Text style={styles.title}>{props.title}</Text>
@@ -34,3 +34,5 @@ export default (props: PropsWithChildren<SectionProps>) => {
     </View>
   );
 }
+
+export default Section;

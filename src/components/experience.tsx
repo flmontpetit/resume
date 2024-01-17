@@ -2,7 +2,7 @@ import Position from "../models/position";
 import JobInfo from "./job-info";
 import Section from "./section";
 
-export default (props: { positions: Position[] }) => {
+const Experience = (props: { positions: Position[] }) => {
   return (
     <Section title="Experience">
       {props.positions.map(position =>
@@ -11,3 +11,5 @@ export default (props: { positions: Position[] }) => {
     </Section>
   );
 }
+
+export default Experience;

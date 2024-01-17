@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default (props: { position: Position }) => {
+const JobInfo = (props: { position: Position }) => {
   const position = props.position;
   const dateFormat = new Intl.DateTimeFormat('en-CA', {
     month: 'long',
@@ -76,3 +76,5 @@ export default (props: { position: Position }) => {
     </View >
   );
 }
+
+export default JobInfo;

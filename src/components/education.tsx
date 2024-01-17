@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default (props: { education: Education[] }) => {
+const Education = (props: { education: Education[] }) => {
   return (
     <Section title="Education">
       {props.education.map(ed => (
@@ -46,3 +46,5 @@ export default (props: { education: Education[] }) => {
     </Section>
   );
 }
+
+export default Education;

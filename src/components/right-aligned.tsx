@@ -12,10 +12,12 @@ const styles = StyleSheet.create({
 
 // Regular approaches to right-alignment don't seem to work with react-pdf 
 // So this should do in the meantime
-export default (props: PropsWithChildren) => {
+const RightAligned = (props: PropsWithChildren) => {
   return (
     <View style={styles.rightAligned}>
       {props.children}
     </View>
   );
 }
+
+export default RightAligned;

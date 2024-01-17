@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default (props: { data: HeaderData }) => {
+const Header = (props: { data: HeaderData }) => {
   const { data } = props;
 
   return (
@@ -78,3 +78,5 @@ export default (props: { data: HeaderData }) => {
     </View>
   );
 };
+
+export default Header;

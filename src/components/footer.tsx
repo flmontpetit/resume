@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default () => {
+const Footer = () => {
   return (
     <Text style={styles.footer}>
       {'This CV was made with '}
@@ -22,3 +22,5 @@ export default () => {
     </Text>
   )
 }
+
+export default Footer;

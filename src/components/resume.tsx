@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default () => {
+const Resume = () => {
   return (
     <Document style={styles.document}>
       <Page size="A4" style={styles.page}>
@@ -32,3 +32,5 @@ export default () => {
     </Document>
   );
 }
+
+export default Resume;
