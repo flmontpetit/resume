@@ -25,7 +25,7 @@ const resumeData: ResumeData = {
       summary: [
         "Contributed in modernizing the notarial practice for the province of Québec, as a consultant working with the Chambre des Notaires du Québec",
         "Advised the client on architecture design choises, load mitigation and long-term storage strategies",
-        "Implemented a variety of features in accordance with client specifications using ASP.NET Core and Angular, leveraging a variety of Azure services",
+        "Implemented user-facing features in accordance with client specifications, using ASP.NET Core and Angular and leveraging a variety of Azure services",
       ],
     },
     {
@@ -52,9 +52,9 @@ const resumeData: ResumeData = {
       endDate: new Date(2020, 2),
       location: "Montréal, Québec, Canada",
       summary: [
-        "Maintained legacy .NET and C++ software, targeting improvements and solving major issues",
+        "Maintained legacy .NET and C++ software, targeting improvements and solving major performance and stability issues",
         "Handled production systems for a web application with over 10,000 paying customers",
-        "Participated in modernizing company culture and training developers with new tooling and practices",
+        "Contributed in modernizing company culture and training developers with new tooling and practices",
       ],
     },
     {

@@ -47,9 +47,9 @@ const resumeData: ResumeData = {
       endDate: new Date(2020, 2),
       location: "Montréal, Québec, Canada",
       summary: [
-        'Maintenance de systèmes "legacy" bâtis avec .NET et C++, en ciblant les améliorations et en réglant les problèmes majeurs',
+        'Maintenance de systèmes "legacy" bâtis avec .NET et C++, en ciblant les améliorations et en réglant des problèmes majeurs de stabilité et de performance',
         "Gestion de la production pour un produit web utilisé par 10,000 usagers payants",
-        "Participation à la modernisation de la compagnie et à l'enseignement aux développeurs des nouvelles pratiques",
+        "Contribution à la modernisation de la compagnie et à l'enseignement aux développeurs des nouvelles pratiques",
       ],
     },
     {
