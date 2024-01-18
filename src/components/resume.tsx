@@ -1,5 +1,5 @@
 import { Document, Page, StyleSheet } from "@react-pdf/renderer";
-import resumeData from "../data/data.en";
+import resumeData from "../data/data.fr";
 import Header from "./header";
 import palette from "../static/palette";
 import ExperienceSection from "./experience-section";

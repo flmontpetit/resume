@@ -1,5 +1,6 @@
 import { Text, Link, StyleSheet } from "@react-pdf/renderer"
 import palette from "../static/palette";
+import { useTranslation } from "react-i18next";
 
 const styles = StyleSheet.create({
   footer: {
@@ -13,12 +14,15 @@ const styles = StyleSheet.create({
 });
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <Text style={styles.footer}>
-      {'This CV was made with '}
+      {t('footer.madeWith')}
       <Link src="https://react-pdf.org/">{'react-pdf.'}</Link>
-      {' View the source code '}
-      <Link src="https://github.com/flmontpetit/resume">{'here!'}</Link>
+      {' '}
+      {t('footer.viewSourceCode')}
+      <Link src="https://github.com/flmontpetit/resume">{t('footer.here')}</Link>
     </Text>
   )
 }

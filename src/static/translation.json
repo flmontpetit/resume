@@ -1,0 +1,28 @@
+{
+  "en": {
+    "translation": {
+      "experience": "Experience",
+      "present": "Present",
+      "technicalSkills": "Technical skills",
+      "education": "Education",
+      "footer": {
+        "madeWith": "This CV was made with ",
+        "viewSourceCode": "View the source code ",
+        "here": "here!"
+      }
+    }
+  },
+  "fr": {
+    "translation": {
+      "experience": "Expérience",
+      "present": "Présent",
+      "technicalSkills": "Compétences techniques",
+      "education": "Éducation",
+      "footer": {
+        "madeWith": "Ce CV a été créé avec ",
+        "viewSourceCode": "Consultez le code source ",
+        "here": "ici!"
+      }
+    }
+  }
+}
