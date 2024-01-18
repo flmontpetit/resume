@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   }
 });
 
-const TechnicalSkills = (props: { skills: TechnicalSkills[] }) => {
+const TechnicalSkillsSection = (props: { skills: TechnicalSkills[] }) => {
   return (
     <Section title="Technical skills">
       {props.skills.map(ts => (
@@ -39,4 +39,4 @@ const TechnicalSkills = (props: { skills: TechnicalSkills[] }) => {
   );
 }
 
-export default TechnicalSkills;
+export default TechnicalSkillsSection;

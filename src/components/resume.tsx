@@ -2,10 +2,10 @@ import { Document, Page, StyleSheet } from "@react-pdf/renderer";
 import resumeData from "../data/data.en";
 import Header from "./header";
 import palette from "../static/palette";
-import Experience from "./experience";
+import ExperienceSection from "./experience-section";
 import Footer from "./footer";
-import TechnicalSkills from "./technical-skills";
-import Education from "./education";
+import TechnicalSkills from "./technical-skills-section";
+import Education from "./education-section";
 
 const styles = StyleSheet.create({
   document: {
@@ -21,7 +21,7 @@ const Resume = () => {
     <Document style={styles.document}>
       <Page size="A4" style={styles.page}>
         <Header data={resumeData.header} />
-        <Experience positions={resumeData.positions} />
+        <ExperienceSection positions={resumeData.positions} />
         <TechnicalSkills skills={resumeData.technicalSkills} />
       </Page>
       <Page>
