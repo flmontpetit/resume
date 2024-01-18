@@ -2,6 +2,7 @@ import { StyleSheet, View, Text } from "@react-pdf/renderer"
 import TechnicalSkills from "../models/technical-skills";
 import palette from "../static/palette";
 import Section from "./section";
+import { useTranslation } from "react-i18next";
 
 const styles = StyleSheet.create({
   content: {
@@ -15,7 +16,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   categoryName: {
-    minWidth: '140px',
+    minWidth: '180px',
     fontSize: '12px',
     color: palette.light,
   },
@@ -27,8 +28,10 @@ const styles = StyleSheet.create({
 });
 
 const TechnicalSkillsSection = (props: { skills: TechnicalSkills[] }) => {
+  const { t } = useTranslation();
+
   return (
-    <Section title="Technical skills">
+    <Section title={t('technicalSkills')}>
       {props.skills.map(ts => (
         <View key={ts.category} style={styles.category}>
           <Text style={styles.categoryName}>{ts.category}:</Text>

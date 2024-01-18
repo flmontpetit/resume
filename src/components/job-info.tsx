@@ -2,6 +2,7 @@ import { View, Text, StyleSheet } from "@react-pdf/renderer";
 import Position from "../models/position";
 import palette from "../static/palette";
 import RightAligned from "./right-aligned";
+import { useTranslation } from "react-i18next";
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -41,6 +42,7 @@ const styles = StyleSheet.create({
 });
 
 const JobInfo = (props: { position: Position }) => {
+  const { t } = useTranslation();
   const position = props.position;
   const dateFormat = new Intl.DateTimeFormat('en-CA', {
     month: 'long',
@@ -56,7 +58,7 @@ const JobInfo = (props: { position: Position }) => {
             <Text style={styles.dateRange}>
               {dateFormat.format(position.startDate)}
               {' - '}
-              {position.endDate ? dateFormat.format(position.endDate) : 'Present'}
+              {position.endDate ? dateFormat.format(position.endDate) : t('present')}
             </Text>
           </RightAligned>
         </View>

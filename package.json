@@ -13,9 +13,15 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@react-pdf/renderer": "^3.1.17",
+    "framer-motion": "^10.18.0",
+    "i18next": "^23.7.16",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

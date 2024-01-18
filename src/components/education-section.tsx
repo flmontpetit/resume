@@ -3,6 +3,7 @@ import Section from "./section";
 import Education from "../models/education";
 import palette from "../static/palette";
 import RightAligned from "./right-aligned";
+import { useTranslation } from "react-i18next";
 
 const styles = StyleSheet.create({
   entry: {
@@ -29,8 +30,10 @@ const styles = StyleSheet.create({
 });
 
 const EducationSection = (props: { education: Education[] }) => {
+  const { t } = useTranslation();
+
   return (
-    <Section title="Education">
+    <Section title={t('education')}>
       {props.education.map(ed => (
         <View style={styles.entry} key={ed.establishment}>
           <View style={styles.row}>

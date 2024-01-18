@@ -36,8 +36,7 @@ const resumeData: ResumeData = {
       endDate: new Date(2023, 2),
       location: "Montréal, Québec, Canada",
       summary: [
-        "Lead architect and primary backend developer for InPilot, a powerful process modeling system with automation capabilities",
-        "Designed the core engine for InPilot, drawing inspiration from technologies such as Git and modern blockchains",
+        "Lead architect and primary backend developer for InPilot, a powerful process modeling system built for learning and automation",
         "Built a variety of RESTful APIs using ASP.NET Core",
         "Deployed standard industry practices for horizontal scalability and high-availability, such as SOA and container orchestration",
         "Maintained operations for development and production, built on Kubernetes and Amazon EKS",
