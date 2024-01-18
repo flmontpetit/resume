@@ -1,4 +1,4 @@
-# résumé React 
+# Résumé React 
 Ce résumé est fait avec [react-pdf](https://react-pdf.org/).
 
 Une version live peut être consultée sur [GitHub Pages](https://flmontpetit.github.io/resume/)
