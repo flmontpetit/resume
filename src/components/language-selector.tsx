@@ -18,7 +18,7 @@ const LanguageSelector = (props: LanguageSelectorProps) => {
 
   return (
     <Button onClick={onClick}>
-      {lang == "en" ? "Français" : "English"}
+      {lang == "en" ? "Afficher en français" : "Switch to English"}
     </Button>
   );
 }

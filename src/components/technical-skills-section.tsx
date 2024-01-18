@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   categoryName: {
-    minWidth: '140px',
+    minWidth: '180px',
     fontSize: '12px',
     color: palette.light,
   },
