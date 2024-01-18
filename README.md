@@ -6,7 +6,7 @@ Une version live peut être consultée sur [GitHub Pages](https://flmontpetit.gi
 ## Instructions de build
 Il faut simplement cloner la répo et exécuter `npm install` puis `npm run dev`.
 
-# React réeumé
+# React resumé
 This resumé is made with [react-pdf](https://react-pdf.org/).
 
 A live version is available on [GitHub Pages](https://flmontpetit.github.io/resume/)
