@@ -8,11 +8,11 @@ const ExperienceSection = (props: { positions: Position[] }) => {
 
   return (
     <Section title={t("experience")}>
-      {props.positions.map(position =>
+      {props.positions.map((position) => (
         <JobInfo key={position.index} position={position} />
-      )}
+      ))}
     </Section>
   );
-}
+};
 
 export default ExperienceSection;
