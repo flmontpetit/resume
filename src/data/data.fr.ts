@@ -18,9 +18,10 @@ const resumeData: ResumeData = {
       startDate: new Date(2023, 3),
       location: "Montréal, Québec, Canada",
       summary: [
-        "Contribuer à moderniser la pratique notariale dans la province, en tant que consultant travaillant avec la Chambres de Notaires du Québec",
-        "Conseiller l'équipe du client dans leurs choix architecturaux et dans leurs stratégies de gestion de charge et de stockage de données à long terme",
-        "Implémenter diverses fonctionalités en fonction des spécifications du client, en utilisant ASP.NET Core, Angular ainsi qu'une panoplie de services Azure",
+        "Travailler avec des institutions telles que la Chambre des Notaires du Québec (CNQ) et l'Airports Council International (ACI) en tant que consultant sénior",
+        "Développer des applications custom en utilisant principalement .NET, React, Angular, TypeScript et MS SQL",
+        "Conseiller les clients sur les choix de désign d'architecture, en introduisant les concepts de haute disponibilité et de systèmes distribués",
+        "Agir en tant que chef d'équipe, en supervisant et en entraînet des développeurs juniors et en assurant un standard de qualité de code et une adhésion aux bonnes pratiques",
       ],
     },
     {
@@ -69,11 +70,19 @@ const resumeData: ResumeData = {
   technicalSkills: [
     {
       category: "Langages de programmation",
-      entries: ["C#", "TypeScript", "Rust", "C++"],
+      entries: ["C#", "TypeScript", "Rust", "C++", "Go", "Python"],
     },
     {
       category: "Technologies web",
-      entries: ["React", "VueJS", "Material UI", "ASP.NET Core", "Angular"],
+      entries: [
+        "React",
+        "VueJS",
+        "Material UI",
+        "ASP.NET Core",
+        "Angular",
+        "Redux",
+        "Jotai",
+      ],
     },
     {
       category: "Bases de données",
@@ -81,11 +90,23 @@ const resumeData: ResumeData = {
     },
     {
       category: "Messagerie",
-      entries: ["RabbitMQ", "Azure Service Bus", "MassTransit"],
+      entries: [
+        "RabbitMQ",
+        "Azure Service Bus",
+        "Azure Event Hub",
+        "MassTransit",
+      ],
     },
     {
-      category: "Technologies Cloud",
-      entries: ["AWS", "Azure", "Kubernetes"],
+      category: "Plateformes",
+      entries: [
+        "AWS",
+        "Azure",
+        "Kubernetes",
+        "Docker",
+        "Linux/POSIX",
+        "Windows",
+      ],
     },
     {
       category: "DevOps",

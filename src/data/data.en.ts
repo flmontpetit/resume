@@ -23,9 +23,10 @@ const resumeData: ResumeData = {
       startDate: new Date(2023, 3),
       location: "Montréal, Québec, Canada",
       summary: [
-        "Contributed in modernizing the notarial practice for the province of Québec, as a consultant working with the Chambre des Notaires du Québec",
-        "Advised the client on architecture design choises, load mitigation and long-term storage strategies",
-        "Implemented user-facing features in accordance with client specifications, using ASP.NET Core and Angular and leveraging a variety of Azure services",
+        "Worked alongside institutions like the Chambre des Notaires du Québec (CNQ) and Airports Council International (ACI) as a senior consultant",
+        "Developed custom software solutions primarily using .NET, React, Angular, TypeScript and MS SQL",
+        "Advised the clients on architecture design choices, introducing high availability and distributed system concepts",
+        "Acted as team lead, supervising and training junior developers and ensuring code quality and adherance to best practices",
       ],
     },
     {
@@ -74,11 +75,19 @@ const resumeData: ResumeData = {
   technicalSkills: [
     {
       category: "Programming languages",
-      entries: ["C#", "TypeScript", "Rust", "C++"],
+      entries: ["C#", "TypeScript", "Rust", "C++", "Go", "Python"],
     },
     {
       category: "Web technologies",
-      entries: ["React", "VueJS", "Material UI", "ASP.NET Core", "Angular"],
+      entries: [
+        "React",
+        "VueJS",
+        "Material UI",
+        "ASP.NET Core",
+        "Angular",
+        "Redux",
+        "Jotai",
+      ],
     },
     {
       category: "Databases",
@@ -86,11 +95,23 @@ const resumeData: ResumeData = {
     },
     {
       category: "Messaging",
-      entries: ["RabbitMQ", "Azure Service Bus", "MassTransit"],
+      entries: [
+        "RabbitMQ",
+        "Azure Service Bus",
+        "Azure Event Hub",
+        "MassTransit",
+      ],
     },
     {
-      category: "Cloud technologies",
-      entries: ["AWS", "Azure", "Kubernetes"],
+      category: "Platforms",
+      entries: [
+        "AWS",
+        "Azure",
+        "Kubernetes",
+        "Docker",
+        "Linux/POSIX",
+        "Windows",
+      ],
     },
     {
       category: "DevOps",
